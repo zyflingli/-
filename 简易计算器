@@ -102,8 +102,8 @@ if __name__ == '__main__':
                  columnspan=2, sticky=tkinter.E + tkinter.W + tkinter.N + tkinter.S)
     place_button('.', get_input, (entry, '.'), row=4, column=2, ipadx=7, padx=5, pady=5)
  
-    # 运算输入类按钮(只是背景色不同)
-    # 字符大小('+','-'宽度不一样,使用ipadx进行修正)
+    # 运算输入类按钮
+    # 字符大小
     place_button('+', get_input, (entry, '+'), bg=math_sign_bg, row=1, column=3, ipadx=5, pady=5)
     place_button('-', get_input, (entry, '-'), bg=math_sign_bg, row=2, column=3, ipadx=5, pady=5)
     place_button('*', get_input, (entry, '*'), bg=math_sign_bg, row=3, column=3, ipadx=5, pady=5)
